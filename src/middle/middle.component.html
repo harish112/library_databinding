@@ -1,0 +1,13 @@
+<h3 class="title">Library</h3>
+<div class="container">
+  <input type="text" class="form-control" [(ngModel)]="bookName" />
+  <p>{{ 'BOOK' }} ID: {{ bookId }}</p>
+  <p>BOOK NAME:{{ bookName }}</p>
+  <p>AUTHOR: {{ author }}</p>
+  <p class="alert-success">Status: {{ bookstatus }}</p>
+  <div>
+    <button class="btn btn-success" [disabled]="btnToggle" (click)="onToggle()">
+      > Buy Now
+    </button>
+  </div>
+</div>

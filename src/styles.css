@@ -1,0 +1,27 @@
+/* Add application styles & imports to this file! */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  vertical-align: bottom;
+  background-color: lightskyblue;
+  height: 50px;
+  padding-top: 5px;
+}
+.columnspan {
+  height: 80vh;
+  border-color: lightslategray;
+  border-style: solid;
+}
+.green {
+  background-color: lightgreen;
+}
+.red {
+  background-color: lightcoral;
+}
